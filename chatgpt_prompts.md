@@ -3,8 +3,8 @@
 ## How to use this
 
 1. Open a **new ChatGPT chat for each image**. Mixing several in one chat makes it blend them together.
-2. **Attach the file** named under "Attach". Use the `2_upscaled_4x/` version when there is one (sharper),
-   otherwise the `1_raw_originals/` one.
+2. **Attach the file** named under "Attach" (the sharp `2_upscaled_4x/` versions). If ChatGPT says a file is too
+   large, attach the same image from `1_raw_originals/` instead. The result comes out the same size either way.
 3. **Paste the prompt** in the grey box exactly as written.
 4. **Download the result** and rename it to the name under "Save as".
 5. **Check every word** on the trophy against the original photo. ChatGPT sometimes misspells or changes small text.
@@ -55,7 +55,7 @@ Upscaling beyond 4× only makes the file bigger. It adds no real detail, and a b
 ---
 
 ## A. Star trophy: Best School, CBSE Board, Whitefield
-**Attach:** `2_upscaled_4x/07_star_trophy_best_cbse_school_upscaled.jpg`
+**Attach:** `2_upscaled_4x/07_star_trophy_best_cbse_4x.jpg`
 **Save as:** `trophy_star.png`
 
 ```
@@ -81,7 +81,7 @@ Size: 1024x1536 portrait, transparent background.
 ```
 
 ## B. ELDROK India Top School Award 2026: Sustainable & Holistic Growth
-**Attach:** `1_raw_originals/09_eldrok_top_school_award.jpg` (or the upscaled one if it's in `2_upscaled_4x/`)
+**Attach:** `2_upscaled_4x/09_eldrok_top_school_award_4x.jpg`
 **Save as:** `trophy_eldrok.png`
 
 ```
@@ -106,7 +106,7 @@ Size: 1024x1536 portrait, transparent background.
 ```
 
 ## C. Unisun Leadership Honour: Innovative Principal
-**Attach:** `2_upscaled_4x/08_unisun_innovative_principal_upscaled.jpg`
+**Attach:** `2_upscaled_4x/08_unisun_innovative_principal_4x.jpg`
 **Save as:** `trophy_unisun.png`
 
 ```
@@ -132,7 +132,7 @@ Size: 1024x1536 portrait, transparent background.
 ```
 
 ## D. PATH Movement for Transforming Education
-**Attach:** `1_raw_originals/06_path_trophy.jpg`
+**Attach:** `2_upscaled_4x/06_path_trophy_4x.jpg`
 **Save as:** `trophy_path.png`
 
 ```
@@ -155,7 +155,7 @@ Size: 1024x1536 portrait, transparent background.
 ```
 
 ## E. EduConnectIn "True Gem": Best School of East Bengaluru
-**Attach:** `2_upscaled_4x/01_best_school_true_gem_educonnectin_upscaled.jpg`
+**Attach:** `2_upscaled_4x/01_educonnectin_true_gem_poster_4x.jpg`
 **Save as:** `truegem.png`
 
 This is a digital poster, not a photo, so the only job is to **sharpen it**. Don't redesign it.
@@ -186,11 +186,11 @@ Do these **one at a time**:
 
 | Attach | Save as | Who to keep centred |
 |---|---|---|
-| `2_upscaled_4x/05_star_education_awards_stage_upscaled.jpg` | `moment_star.jpg` | the 3 people holding the award |
-| `1_raw_originals/03_eldrok_expo_stage.jpg` | `moment_eldrok.jpg` | the 2 women holding the award, with the "Edu India Expo 2026" screen above |
-| `1_raw_originals/02_nep_conclave_stage.jpg` | `moment_nep.jpg` | the 5 women in the centre, with the "NEP Leadership Conclave 2026" screen behind |
-| `2_upscaled_4x/13_thumb_gurugauravam_aster_upscaled.jpg` | `moment_guru.jpg` | the seated group with their certificates |
-| `2_upscaled_4x/14_thumb_geti_world_summit_upscaled.jpg` | `moment_geti.jpg` | the 4 people holding certificates |
+| `2_upscaled_4x/05_star_awards_stage_4x.jpg` | `moment_star.jpg` | the 3 people holding the award |
+| `2_upscaled_4x/03_eldrok_expo_stage_2x.jpg` | `moment_eldrok.jpg` | the 2 women holding the award, with the "Edu India Expo 2026" screen above |
+| `2_upscaled_4x/02_nep_conclave_stage_4x.jpg` | `moment_nep.jpg` | the 5 women in the centre, with the "NEP Leadership Conclave 2026" screen behind |
+| `2_upscaled_4x/13_thumb_gurugauravam_aster_4x.jpg` | `moment_guru.jpg` | the seated group with their certificates |
+| `2_upscaled_4x/14_thumb_geti_world_summit_4x.jpg` | `moment_geti.jpg` | the 4 people holding certificates |
 
 ```
 Edit this exact photo. Do NOT redraw, change, add or remove any person. Keep every face, expression,
