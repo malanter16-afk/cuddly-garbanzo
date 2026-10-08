@@ -1,154 +1,206 @@
-# ChatGPT image prompts: award photos, re-shot "properly"
+# ChatGPT instructions: Nurture International School awards banner
 
-These prompts are for ChatGPT image generation (or any image model that takes a reference photo).
-For each prompt, **attach the matching file from `upscaled/`** (it has the most detail), then paste the prompt.
+## How to use this
 
-## Before you start (please read)
+1. Open a **new ChatGPT chat for each image**. Mixing several in one chat makes it blend them together.
+2. **Attach the file** named under "Attach". Use the `2_upscaled_4x/` version when there is one (sharper),
+   otherwise the `1_raw_originals/` one.
+3. **Paste the prompt** in the grey box exactly as written.
+4. **Download the result** and rename it to the name under "Save as".
+5. **Check every word** on the trophy against the original photo. ChatGPT sometimes misspells or changes small text.
+   If anything is wrong, reply: *"The text is wrong. Copy the text exactly from my photo, letter for letter."*
+   Never print a version with a wrong name or date.
+6. Send the finished files back to me and I'll drop them into the banner and export the print files.
 
-1. **Check every letter.** Image AI often misspells or invents small text on trophies, such as names, dates and venues.
-   Each prompt lists the exact text so the model has it to copy. Compare the result with the original photo anyway,
-   and reject any version with wrong spelling. A wrong name or date on a printed flex is embarrassing.
-2. **Leave photos with people alone, or only enhance them.** Don't let AI re-generate the faces of the principal, chairman or other guests.
-   Use the "enhance only" prompt (section G). If faces change at all, use the upscaled original instead.
-3. **Ask for the size you need.** Ask for "highest resolution, 4:5 portrait" for trophies (that's the frame shape on the banner).
-4. **Swapping a result into the banner:** save it over the matching file in `banner/img/` (same name), then re-render (see README).
+### What I'm asking ChatGPT to do, in one line
+
+Turn each messy shelf photo into a **clean, straight-on, studio-style product shot of just that one trophy**: whole
+trophy visible, nothing cut off, no clutter, on a **transparent background**, with **all text and logos exactly as in
+the real trophy**. For photos with people, only **crop and enhance**: never redraw faces.
+
+### Output sizes that fit the banner
+
+| Banner slot | Shape to ask for | ChatGPT size |
+|---|---|---|
+| Trophies (A–D) | Tall portrait, 2:3 | 1024 × 1536, transparent background |
+| True Gem poster (E) | Tall portrait, 2:3 | 1024 × 1536 |
+| Event photos (G) | Landscape, 3:2 | 1536 × 1024 |
+| Logo (H) | Wide | 1536 × 1024, transparent background |
 
 ---
 
-## Shared style block (already included in each prompt below)
-
-> Clean, premium catalogue-style product photo: plain warm ivory seamless background (#F6F1E7), soft natural daylight
-> from the front-left, one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus,
-> no props, no sparkles, no glow effects, no extra text, no watermark.
-> (Or ask for a **transparent-background PNG**: it drops straight onto the banner.)
-
-This matches the banner's look: ivory background, navy text, gold only as an accent. Avoid "glowing", "sparkle" or
-"golden light rays" wording, because that's what makes award graphics look tacky.
-
----
-
-## A. Star trophy: Best School, CBSE Board, Whitefield (Star Education Awards 2026)
-**Attach:** `upscaled/07_star_trophy_best_cbse_school_upscaled.jpg`
+## A. Star trophy: Best School, CBSE Board, Whitefield
+**Attach:** `2_upscaled_4x/07_star_trophy_best_cbse_school_upscaled.jpg`
+**Save as:** `trophy_star.png`
 
 ```
-Using the attached photo as the exact reference, create a professional studio product photograph of this same trophy:
-a black wooden plaque with a cut-out gold mirror-acrylic star on top and a gold engraved plate below.
-Keep the trophy's shape, proportions, colours and every logo exactly as in the photo. Remove the cluttered background
-(certificates, newspapers, shelf) completely.
+Make a clean studio product photo of ONLY the trophy in this photo: a black wooden plaque with a cut-out
+gold mirror-acrylic star on top and a gold engraved plate below.
 
-The gold plate text must be reproduced exactly, letter for letter, with no changes:
+Framing: straight-on, front view, perfectly upright (fix the slight camera tilt). Show the WHOLE trophy,
+from the top point of the star to the bottom of the base, with nothing cut off. Leave about 5% empty
+space on every side. Centred.
+
+Background: transparent PNG. Remove everything else: the certificates, the newspaper, the shelf
+and the other trophies behind it.
+
+Keep the trophy's real shape, proportions, colours and materials. Do not redesign it.
+The gold plate text must be copied exactly, letter for letter:
 "With Our" / "Deepest Appreciation" / "We honour" / "Sanjib Kar" /
 "Nurture International School Whitefield Bangalore" / "in the category of" / "BEST SCHOOL" /
 "CBSE BOARD - WHITEFIELD - BANGALORE" / "Date :- 06th,07th,08th October 2026" / "Venue :- NESCO, Mumbai."
-Keep the sponsor logos at the bottom of the plate (ESFE 6th Edition, Star Education Awards 2026, AiTE, The Times of India).
+Keep the small sponsor logos at the bottom of the plate as they are.
 
-Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
-one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
-no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
-Front-facing, centred, trophy fills about 80% of the frame. Portrait 4:5, highest resolution.
+Lighting: soft, even, natural studio light; realistic gold reflections; no glow, no sparkles.
+Size: 1024x1536 portrait, transparent background.
 ```
 
-## B. ELDROK India: India Top School Awards 2026 (Sustainable & Holistic Growth)
-**Attach:** `upscaled/09_eldrok_india_top_school_award_upscaled.jpg`
+## B. ELDROK India Top School Award 2026: Sustainable & Holistic Growth
+**Attach:** `1_raw_originals/09_eldrok_top_school_award.jpg` (or the upscaled one if it's in `2_upscaled_4x/`)
+**Save as:** `trophy_eldrok.png`
 
 ```
-Using the attached photo as the exact reference, create a professional studio product photograph of this same award:
-a tall gold embossed plaque in a black frame on a small chrome stand, with a laurel wreath and the ELDROK India logo at the top.
-Keep the shape, colours and all logos (ELDROK India, LiveLife Education) exactly as in the photo. Remove the background.
+Make a clean studio product photo of ONLY the award in this photo: a tall gold embossed plaque inside a
+black frame, standing on a small chrome stand, with a laurel wreath and the ELDROK India logo at the top.
 
-Reproduce the plaque text exactly, letter for letter:
-"LiveLife EDUCATION" / "presents" / "India Top School Awards 2026" / "IKA-2026 - Bengaluru" / "honors" /
-"Nurture International School," / "Whitefield, Bengaluru" / "for excellence in" /
-"Sustainable & Holistic Growth Programs" / "Edu India Expo - 2026" / "EBISU Convention Center, Bengaluru" /
-"9th - 10th September, 2026".
+Framing: straight-on, front view, perfectly upright and rectangular (remove the camera angle and
+perspective). Show the WHOLE award including the black frame and the chrome stand, with nothing cut off.
+Leave about 5% empty space on every side. Centred.
 
-Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
-one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
-no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
-Front-facing, straight-on (no tilt), centred. Portrait 4:5, highest resolution.
+Background: transparent PNG. Remove the wall, the other trophies and the colourful certificate behind it.
+
+Keep the real shape, colours and materials, including the black frame. Do not redesign it.
+Copy the plaque text exactly, letter for letter:
+"LiveLife EDUCATION" / "ELDROK India" / "presents" / "India Top School Awards 2026" /
+"IKA-2026 - Bengaluru" / "honors" / "Nurture International School," / "Whitefield, Bengaluru" /
+"for excellence in" / "Sustainable & Holistic Growth Programs" / "Edu India Expo - 2026" /
+"EBISU Convention Center, Bengaluru" / "9th - 10th September, 2026"
+
+Lighting: soft, even, natural studio light; realistic gold; no glare spots, no glow, no sparkles.
+Size: 1024x1536 portrait, transparent background.
 ```
 
-## C. Unisun Leadership Honour: Innovative Principal (NEP Leadership Conclave 2026)
-**Attach:** `upscaled/08_unisun_innovative_principal_upscaled.jpg`
+## C. Unisun Leadership Honour: Innovative Principal
+**Attach:** `2_upscaled_4x/08_unisun_innovative_principal_upscaled.jpg`
+**Save as:** `trophy_unisun.png`
 
 ```
-Using the attached photo as the exact reference, create a professional studio product photograph of this same award:
-a round bevelled crystal-glass disc on a clear glass base, with a silver printed medallion showing a ring of cartoon
-children holding hands around the "UNISUN LEARNING" brain-with-barbell logo, and silver laurel branches on both sides.
-Keep the artwork, colours and layout exactly as in the photo. Remove the background (certificates, trophies, newspaper).
+Make a clean studio product photo of ONLY the crystal award in front: a round bevelled glass disc with a
+silver printed medallion, standing on a clear glass block base that has a label reading
+"NEP LEADERSHIP CONCLAVE 2026".
 
-Reproduce the text exactly:
-Arched top: "THE UNISUN LEADERSHIP HONOUR" / "TO" / "INNOVATIVE PRINCIPAL" /
+Framing: straight-on, front view, upright. Show the WHOLE award: the complete circle (the left edge is
+cut off in my photo, so complete it naturally) AND the glass base with its label. Nothing cut off.
+Leave about 5% empty space on every side. Centred.
+
+Background: transparent PNG. Remove the trophies, certificates and newspaper behind and around it.
+The glass should look clear, not show the old background through it.
+
+Keep the artwork exactly: the ring of cartoon children holding hands around the "UNISUN LEARNING"
+brain-with-barbell logo, and the silver laurels. Copy the text exactly:
+"THE UNISUN LEADERSHIP HONOUR" / "TO" / "INNOVATIVE PRINCIPAL" /
 "In celebration of your vision to unite innovation, values, and excellence in education." /
-Base plate: "NEP LEADERSHIP CONCLAVE 2026".
+base label: "NEP LEADERSHIP CONCLAVE 2026"
 
-Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
-one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
-no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
-Front-facing, centred. Portrait 4:5, highest resolution.
+Lighting: soft, even studio light, realistic glass edges; no glow, no sparkles.
+Size: 1024x1536 portrait, transparent background.
 ```
 
 ## D. PATH Movement for Transforming Education
-**Attach:** `upscaled/06_path_movement_trophy_upscaled.jpg`
+**Attach:** `1_raw_originals/06_path_trophy.jpg`
+**Save as:** `trophy_path.png`
 
 ```
-Using the attached photo as the exact reference, create a professional studio product photograph of ONLY the gold trophy
-in the centre: a gold medallion ringed with round clear crystals, on a curved gold flame-shaped stem, on a maroon
-square base. Remove everything else (the white trophy on the right, the shelf, the newspaper, the wall).
-Keep the shape, colours and proportions exactly as in the photo, and clean up the small scratches and glue marks.
+Make a clean studio product photo of ONLY the gold trophy in the centre: a gold medallion surrounded by a
+ring of round clear crystals, on a curved gold flame-shaped stem, on a maroon square base.
 
-The centre disc logo must read exactly: "PATH" / "MOVEMENT" / "FOR TRANSFORMING" / "Education".
+Framing: straight-on, front view, upright. Show the WHOLE trophy: the complete crystal ring at the top
+(it is cut off at the top of my photo, so complete it naturally, matching the other crystals) down to
+the bottom of the maroon base. Nothing cut off. Leave about 5% empty space on every side. Centred.
 
-Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
-one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
-no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
-Front-facing, centred. Portrait 4:5, highest resolution.
+Background: transparent PNG. Remove the white "Leader of Change" trophy on the right, the wooden plaque
+on the left, the newspaper, the shelf and the wall.
+
+Keep the real shape, colours and proportions. Clean up the small scratches and the glue mark at the
+bottom of the stem. The centre disc must read exactly:
+"PATH" / "MOVEMENT" / "FOR TRANSFORMING" / "Education"
+
+Lighting: soft, even studio light; realistic gold and crystal; no glow, no sparkles.
+Size: 1024x1536 portrait, transparent background.
 ```
 
-## E. EduConnectIn "True Gem": Best School of East Bengaluru (framed certificate look)
-**Attach:** `upscaled/01_best_school_true_gem_educonnectin_upscaled.jpg`
+## E. EduConnectIn "True Gem": Best School of East Bengaluru
+**Attach:** `2_upscaled_4x/01_best_school_true_gem_educonnectin_upscaled.jpg`
+**Save as:** `truegem.png`
+
+This is a digital poster, not a photo, so the only job is to **sharpen it**. Don't redesign it.
 
 ```
-Show the attached award artwork as a real, physical framed award: printed and mounted in a picture frame,
-photographed straight-on. Do NOT redraw, change or re-letter the artwork: place it exactly as it is,
-keeping "EduConnectin", "BEST SCHOOL AWARD", "TRUE GEM – A Treasure of Knowledge", "BEST SCHOOL OF EAST BENGALURU",
-"Nurture International School", "True Gem", "A treasure of knowledge." exactly as written.
-Thin navy frame with a fine gold inner line, white mat, on a plain warm ivory wall (#F6F1E7), soft natural daylight,
-subtle realistic glass reflection kept minimal so the artwork stays fully readable. Portrait 4:5, highest resolution.
+Recreate this exact poster at higher resolution and sharper. Same layout, same colours, same children,
+same everything. Do not change, move, add or remove anything. All text must stay exactly the same:
+"EduConnectin" / "BEST SCHOOL AWARD" / "TRUE GEM" / "A Treasure of Knowledge" /
+"Small Steps Big Dreams" / "LEARN" "EXPLORE" "GROW" "TOGETHER" / "BEST SCHOOL OF EAST BENGALURU" /
+"Nurture International School" / "True Gem" / "A treasure of knowledge."
+Size: 1024x1536 portrait.
 ```
+If the text comes out even slightly different, **don't use it**. The upscaled file is already good enough.
 
-## F. Bonus: all trophies together (trophy cabinet hero shot)
-**Attach:** the four trophy photos from A–D together (07, 09, 08, 06).
-
-```
-Using the four attached photos as exact references, create one premium photograph of these four awards displayed
-together on a simple low ivory plinth, evenly spaced, photographed straight-on: the black-and-gold star trophy,
-the tall gold ELDROK plaque, the round crystal Unisun disc and the gold crystal-ring PATH trophy.
-Keep each award's shape, colours, logos and text exactly as in its reference photo. Do not add any other trophies,
-people or text. Plain warm ivory seamless background, soft natural daylight, soft contact shadows, no sparkles or glow.
-Realistic, crisp, front-facing.
-Landscape 16:9, highest resolution.
-```
-
-## G. Stage / event photos: ENHANCE ONLY (people in them)
-**Attach one at a time:** `upscaled/02_…`, `03_…`, `05_…`, `13_…`, `14_…`
+## F. Optional: the four trophies together (for a hero image or social post)
+**Attach:** your four finished files from A–D (`trophy_star.png`, `trophy_eldrok.png`, `trophy_unisun.png`, `trophy_path.png`)
+**Save as:** `trophies_group.png`
 
 ```
-Enhance this exact photo only. Do not change, add, remove or move any person. Keep every face, expression, body,
-saree and outfit exactly the same: no beautification, no face re-generation. Keep all text on the screens and banners
-as it is. Only improve: sharpness, noise, white balance, exposure and stage-light colour, plus mild straightening.
-Output the same framing at the highest resolution.
+Arrange these four exact awards side by side in one clean studio photo, standing on the same surface,
+evenly spaced, front view, all at realistic relative sizes. Do not change any award or any text on them.
+Plain warm ivory background (#F6F1E7), soft natural light, soft contact shadows, no other objects.
+Size: 1536x1024 landscape.
 ```
-If anyone's face looks even slightly different from the original, **don't use the result**. Use the upscaled photo from `upscaled/` instead.
 
-## H. School logo: clean redraw (only if the school can't send the original file)
-**Attach:** `upscaled/10_school_logo_upscaled.png`
+## G. Event / stage photos: crop and enhance ONLY (there are people in them)
+Do these **one at a time**:
+
+| Attach | Save as | Who to keep centred |
+|---|---|---|
+| `2_upscaled_4x/05_star_education_awards_stage_upscaled.jpg` | `moment_star.jpg` | the 3 people holding the award |
+| `1_raw_originals/03_eldrok_expo_stage.jpg` | `moment_eldrok.jpg` | the 2 women holding the award, with the "Edu India Expo 2026" screen above |
+| `1_raw_originals/02_nep_conclave_stage.jpg` | `moment_nep.jpg` | the 5 women in the centre, with the "NEP Leadership Conclave 2026" screen behind |
+| `2_upscaled_4x/13_thumb_gurugauravam_aster_upscaled.jpg` | `moment_guru.jpg` | the seated group with their certificates |
+| `2_upscaled_4x/14_thumb_geti_world_summit_upscaled.jpg` | `moment_geti.jpg` | the 4 people holding certificates |
 
 ```
-Redraw this exact logo as a clean, flat, sharp vector-style graphic on a pure white background, at the highest
-resolution. Keep the layout, colours and fonts exactly as in the reference: green house roofline with a small window
-and chimney, orange sun, small flowers and fence at the bottom-left, green banner reading "Compete with yourself!",
-red "Nurture", and dark grey "INTERNATIONAL SCHOOL" below. Do not add or change anything. No shadows, no texture.
+Edit this exact photo. Do NOT redraw, change, add or remove any person. Keep every face, expression,
+body, saree and outfit exactly the same, with no beautification and no face changes.
+
+1. Crop to a 3:2 landscape frame centred on the people receiving the award. Keep their full heads and
+   bodies down to at least the knees, plus the event name on the screen behind them if it fits.
+   Remove empty floor and ceiling.
+2. Straighten it so it is level.
+3. Improve only: sharpness, noise, exposure and white balance (natural colours, not over-saturated).
+Keep all text on the screens exactly as it is.
+Size: 1536x1024 landscape.
 ```
-Best option: ask the school office or the designer for the **original logo file** (.ai, .cdr, .pdf, .svg or a large .png).
-That will always print sharper than any upscale or redraw.
+If **anyone's face looks even slightly different**, throw it away. Use the upscaled photo instead and I'll crop it.
+
+## H. School logo: only if the school can't send the original
+**Attach:** `3_logo/nurture_logo_white_bg.png`
+**Save as:** `logo.png`
+
+```
+Redraw this exact logo as a clean, sharp, flat graphic with a transparent background. Keep the layout,
+colours and lettering exactly as in the reference: green house roofline with a small window and chimney,
+orange sun, small flowers and fence at the bottom-left, green banner reading "Compete with yourself!",
+red "Nurture" and dark grey "INTERNATIONAL SCHOOL" underneath. Do not add or change anything.
+No shadow, no texture, no 3D. Size: 1536x1024, transparent background.
+```
+**Best option:** ask the school office or their designer for the original logo file (.ai, .cdr, .pdf, .svg or a large .png).
+
+---
+
+## Things to confirm before printing (not image work)
+
+- **PATH trophy:** what is the exact award name? The trophy only shows the PATH Movement logo.
+- **"Ranked #6 of 6,771 schools in Bengaluru (EduConnectIn)":** this came from the old poster. Is it still correct?
+- **Best Director, Best Chairman, Gurugauravam, GETI World Summit:** do you have the original photos? The
+  current ones are tiny thumbnails cut from the old poster.
+- **White "Leader of Change" trophy (ALfA / Dignity Education):** it's partly visible behind the PATH trophy.
+  If that's another award, send a proper photo and I'll add it.
