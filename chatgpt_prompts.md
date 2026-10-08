@@ -27,6 +27,31 @@ the real trophy**. For photos with people, only **crop and enhance**: never redr
 | Event photos (G) | Landscape, 3:2 | 1536 × 1024 |
 | Logo (H) | Wide | 1536 × 1024, transparent background |
 
+### ⚠ Large-format resolution: read this
+
+ChatGPT's images come out at **1536 px at most**. That's fine on a phone, but too small for a big board on its own.
+So the workflow is:
+
+1. Clean the photo up in ChatGPT (prompts below).
+2. **Send the result back to me.** I'll run it through a 4× AI upscale, so 1024×1536 becomes **4096×6144 px**.
+3. Then it goes onto the banner.
+
+**How big each file can print** (flex is printed at 72–100 DPI, because it's viewed from 1 m or more):
+
+| File (in `2_upscaled_4x/`) | Pixels | Max print size at 100 DPI |
+|---|---|---|
+| Trophy photos 06–09 (4×) | 3596 × 6396 | about 3 ft × 5.3 ft |
+| ChatGPT trophy after my 4× | 4096 × 6144 | about 3.4 ft × 5.1 ft |
+| 02 NEP stage (4×) | 6400 × 4800 | about 5.3 ft × 4 ft |
+| 05 Star Awards stage (4×) | 5120 × 3840 | about 4.3 ft × 3.2 ft |
+| 03 ELDROK stage (2×, already a large photo) | 4104 × 7296 | about 3.4 ft × 6 ft |
+| 01 True Gem poster (4×) | 2568 × 3648 | about 2.1 ft × 3 ft |
+| Logo (4×, from the old poster) | 1728 × 476 | about 17 in wide. **The weakest file. Get the original logo.** |
+| Thumbnails 11–14 (4×, from the old poster) | 1224 × 912 | about 12 in wide. Small use only. |
+
+On an 8 × 4 ft banner, each trophy is about 1.5 ft tall, so all of these have plenty of headroom.
+Upscaling beyond 4× only makes the file bigger. It adds no real detail, and a blown-up blur still looks like a blur.
+
 ---
 
 ## A. Star trophy: Best School, CBSE Board, Whitefield
