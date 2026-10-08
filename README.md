@@ -8,6 +8,7 @@
 | `print/Nurture_Awards_Banner_8x4ft_100dpi.jpg` | Same banner as one big JPG (9600 × 4800 px = 100 DPI at 8×4 ft). Some printers prefer JPG. |
 | `print/Nurture_Awards_Banner_preview.jpg` | Small preview for WhatsApp, approvals and sharing. |
 | `upscaled/` | Every award photo upscaled 4× with Real-ESRGAN (AI upscaler), plus the extracted school logo. |
+| `cutouts/` | Trophies with the background removed (transparent PNGs, made with BiRefNet), plus the logo on a transparent background. Handy for social posts too. |
 | `originals/` | The cropped originals (before upscaling), for comparison. |
 | `chatgpt_prompts.md` | Ready-made prompts for ChatGPT image generation: studio "trophy shots", framed-award looks, an enhance-only prompt for people photos, and a logo redraw. |
 | `banner/` | Editable source: `banner.html` plus `img/`. Change the text and re-render. |
@@ -42,4 +43,11 @@ node render.js pdf       # 8x4 ft PDF   -> banner.pdf
 ```
 
 To swap a photo (for example, a ChatGPT-improved trophy shot), save it over the file with the same name in `banner/img/` and re-render.
-Trophy frames are 4:5 portrait. Any photo works, because it's fitted inside the frame over a blurred copy of itself.
+Trophies are transparent PNGs that sit straight on the ivory background, so a ChatGPT result with a transparent
+(or plain ivory #F6F1E7) background drops right in.
+
+## Design
+
+Warm ivory background, deep navy type, and muted gold used only for thin rules and small labels.
+The headline is set in Cormorant Garamond, with Montserrat for small text. The trophies are cut out and stand on a soft shadow,
+like a catalogue page. There are no glows, sparkles or gradients, which keeps it from looking tacky at this size.

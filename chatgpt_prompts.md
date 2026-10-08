@@ -17,9 +17,13 @@ For each prompt, **attach the matching file from `upscaled/`** (it has the most 
 
 ## Shared style block (already included in each prompt below)
 
-> Premium award-photography style: deep royal-navy velvet backdrop, soft warm gold rim light, gentle spotlight from above,
-> subtle bokeh sparkles, polished reflective dark surface under the trophy, realistic studio product photo, crisp focus,
-> natural shadows, no extra objects, no watermark.
+> Clean, premium catalogue-style product photo: plain warm ivory seamless background (#F6F1E7), soft natural daylight
+> from the front-left, one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus,
+> no props, no sparkles, no glow effects, no extra text, no watermark.
+> (Or ask for a **transparent-background PNG**: it drops straight onto the banner.)
+
+This matches the banner's look: ivory background, navy text, gold only as an accent. Avoid "glowing", "sparkle" or
+"golden light rays" wording, because that's what makes award graphics look tacky.
 
 ---
 
@@ -38,10 +42,10 @@ The gold plate text must be reproduced exactly, letter for letter, with no chang
 "CBSE BOARD - WHITEFIELD - BANGALORE" / "Date :- 06th,07th,08th October 2026" / "Venue :- NESCO, Mumbai."
 Keep the sponsor logos at the bottom of the plate (ESFE 6th Edition, Star Education Awards 2026, AiTE, The Times of India).
 
-Style: premium award-photography, deep royal-navy velvet backdrop, soft warm gold rim light, gentle spotlight from above,
-subtle bokeh sparkles, polished reflective dark surface under the trophy, realistic, crisp focus, natural shadows,
-no extra objects, no watermark. Front-facing, centred, trophy fills about 80% of the frame.
-Portrait 4:5, highest resolution.
+Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
+one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
+no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
+Front-facing, centred, trophy fills about 80% of the frame. Portrait 4:5, highest resolution.
 ```
 
 ## B. ELDROK India: India Top School Awards 2026 (Sustainable & Holistic Growth)
@@ -58,9 +62,10 @@ Reproduce the plaque text exactly, letter for letter:
 "Sustainable & Holistic Growth Programs" / "Edu India Expo - 2026" / "EBISU Convention Center, Bengaluru" /
 "9th - 10th September, 2026".
 
-Style: premium award-photography, deep royal-navy velvet backdrop, soft warm gold rim light, gentle spotlight from above,
-subtle bokeh sparkles, polished reflective dark surface, realistic, crisp focus, natural shadows, no extra objects,
-no watermark. Front-facing, straight-on (no tilt), centred. Portrait 4:5, highest resolution.
+Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
+one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
+no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
+Front-facing, straight-on (no tilt), centred. Portrait 4:5, highest resolution.
 ```
 
 ## C. Unisun Leadership Honour: Innovative Principal (NEP Leadership Conclave 2026)
@@ -77,9 +82,10 @@ Arched top: "THE UNISUN LEADERSHIP HONOUR" / "TO" / "INNOVATIVE PRINCIPAL" /
 "In celebration of your vision to unite innovation, values, and excellence in education." /
 Base plate: "NEP LEADERSHIP CONCLAVE 2026".
 
-Style: premium award-photography, deep royal-navy velvet backdrop, soft warm gold rim light so the crystal edges sparkle,
-gentle spotlight from above, subtle bokeh, polished reflective dark surface, realistic glass refraction, crisp focus,
-no extra objects, no watermark. Front-facing, centred. Portrait 4:5, highest resolution.
+Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
+one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
+no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
+Front-facing, centred. Portrait 4:5, highest resolution.
 ```
 
 ## D. PATH Movement for Transforming Education
@@ -93,21 +99,22 @@ Keep the shape, colours and proportions exactly as in the photo, and clean up th
 
 The centre disc logo must read exactly: "PATH" / "MOVEMENT" / "FOR TRANSFORMING" / "Education".
 
-Style: premium award-photography, deep royal-navy velvet backdrop, soft warm gold rim light, crystals catching
-sparkles, gentle spotlight from above, polished reflective dark surface, realistic, crisp focus, natural shadows,
-no extra objects, no watermark. Front-facing, centred. Portrait 4:5, highest resolution.
+Style: clean premium catalogue product photo, plain warm ivory seamless background (#F6F1E7), soft natural daylight,
+one soft contact shadow under the base, true-to-life colours and metal reflections, crisp focus, no props,
+no sparkles, no glow, no extra text, no watermark. (Alternatively: transparent-background PNG.)
+Front-facing, centred. Portrait 4:5, highest resolution.
 ```
 
 ## E. EduConnectIn "True Gem": Best School of East Bengaluru (framed certificate look)
 **Attach:** `upscaled/01_best_school_true_gem_educonnectin_upscaled.jpg`
 
 ```
-Show the attached award artwork as a real, physical framed award: printed and mounted in a thick polished gold
-picture frame with a navy-blue mat border, hanging on a dark navy wall with a soft gallery spotlight from above,
-or standing on a small gold easel. Do NOT redraw, change or re-letter the artwork: place it exactly as it is,
+Show the attached award artwork as a real, physical framed award: printed and mounted in a picture frame,
+photographed straight-on. Do NOT redraw, change or re-letter the artwork: place it exactly as it is,
 keeping "EduConnectin", "BEST SCHOOL AWARD", "TRUE GEM – A Treasure of Knowledge", "BEST SCHOOL OF EAST BENGALURU",
 "Nurture International School", "True Gem", "A treasure of knowledge." exactly as written.
-Realistic glass reflection kept subtle so the artwork stays fully readable. Portrait 4:5, highest resolution.
+Thin navy frame with a fine gold inner line, white mat, on a plain warm ivory wall (#F6F1E7), soft natural daylight,
+subtle realistic glass reflection kept minimal so the artwork stays fully readable. Portrait 4:5, highest resolution.
 ```
 
 ## F. Bonus: all trophies together (trophy cabinet hero shot)
@@ -115,10 +122,11 @@ Realistic glass reflection kept subtle so the artwork stays fully readable. Port
 
 ```
 Using the four attached photos as exact references, create one premium photograph of these four awards displayed
-together on a tiered, polished dark-navy display stand with warm gold accent lighting: the black-and-gold star trophy,
+together on a simple low ivory plinth, evenly spaced, photographed straight-on: the black-and-gold star trophy,
 the tall gold ELDROK plaque, the round crystal Unisun disc and the gold crystal-ring PATH trophy.
 Keep each award's shape, colours, logos and text exactly as in its reference photo. Do not add any other trophies,
-people or text. Deep royal-navy backdrop with soft gold bokeh. Realistic, crisp, front-facing.
+people or text. Plain warm ivory seamless background, soft natural daylight, soft contact shadows, no sparkles or glow.
+Realistic, crisp, front-facing.
 Landscape 16:9, highest resolution.
 ```
 

@@ -1,0 +1,8 @@
+# Photos/banner renders: kept out of this public repo until the owner OKs publishing them
+preview/
+print/
+upscaled/
+cutouts/
+originals/
+banner/
+*.zip
